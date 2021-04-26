@@ -1,0 +1,29 @@
+body{
+    background-color: cornflowerblue;
+}
+.center{
+    text-align: center;
+    color:indigo;
+    border-color: black;
+}
+.center2{
+    text-align: center;
+    color:grey
+}
+#filosofia{
+    background-color: khaki;
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: indigo 3 px 3px 10px;
+}
+.pg{
+    color: indigo;
+}
+.container{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}

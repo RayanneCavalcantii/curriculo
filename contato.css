@@ -1,0 +1,29 @@
+body{
+    background-color: cornflowerblue; 
+}
+h1{
+    color:midnightblue
+
+    font-style: normal;
+}
+#css{
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: mediumblue;
+    text-align: justify;
+}
+footer{
+   
+    color: grey;
+    border-radius: 10px;
+  
+}
+#endereco{
+    border-radius: 10px;
+    text-align: center;
+    background-color: indigo;
+    padding: 10px;
+    box-shadow: gray;
+    width: 200px;
+    height: 200px;
+}
