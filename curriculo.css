@@ -5,10 +5,15 @@ body{
     text-align: center;
     color:indigo;
     border-color: black;
+    text-decoration-line: underline;
 }
 .center2{
     text-align: center;
-    color:grey
+    color:grey;
+    text-emphasis-color: black ;
+    text-underline-position: unset;
+    text-shadow: white 200px;
+    
 }
 #filosofia{
     background-color: khaki;
@@ -21,28 +26,107 @@ body{
 }
 .pg{
     color: indigo;
-    width: 200px;
-    height: 100px;
     
+
 }
 .container{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    margin: auto;
-    border-radius: 20px;
-    box-shadow: gray  5px 5px 10 px;
+    display: flexbox;
+    flex-flow: column;
+    justify-content:center;
+    margin:auto;
+    border-radius: 10px;
+    box-shadow: gray ;
     padding: 20px;
+    align-items:center;
+}
+.flexbox
+{
+    display: flex;
+    background-color: indigo;
+    justify-content: center;
+    align-content: space-around;
+    flex-direction: row;
+    align-content: space-around;
+
 }
 .flexbox>div{
     display: flex;
     flex-direction:column;
-    padding: 10px;
+    padding: 5px;
     width: 300px;
     height: 300px;
     background-color: grey;
     border-radius: 10px;
     box-shadow: olive;
     margin: 10px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 
+}
+
+    
+
+
+#sb{
+    background-color:grey;
+    border-radius: 20px;
+    box-shadow: darkgoldenrod;
+    padding: 20px;
+    font-size: large;
+    width: 300px;
+    flex-direction:column;
+    color: darkblue;
+    text-align: center;
+    background-color:grey;
+    border-radius: 20px;
+    margin:auto;
+    text-justify: auto;
+    
+
+
+}
+#menu li {
+display:inline;
+padding: 10px;
+font-size: 20px;
+
+}
+#menu li a {
+    text-decoration: olivedrab;
+}
+#menu li a:hover{
+    color:springgreen
+}
+h2{
+    color: darkblue;
+}
+h3{
+    color: darkblue;
+}
+#img{
+    border-radius: 50px;
+    margin: auto;
+}
+.lh{
+    width: 200px;
+    height: 200px;
+}
+.tt{
+    
+    border-radius: 10px;
+    padding:15px;
+    width: 500px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.342) 3px 3px 10px;
+
+}section{
+    background-color:grey;
+    border-radius: 20px;
+    padding:20px;
+    width: 500px;
+    margin:auto;
+    box-shadow: rgba(0, 0, 0, 0.342) 3px 3px 10px;
+    text-align: center;
+    
 }

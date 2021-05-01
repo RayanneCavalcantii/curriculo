@@ -9,7 +9,7 @@
 </head>
 <body>
     
-    <ul>
+    <ul id="menu">
         <li>
         <a href="curriculo.html">Home</a>
         </li>
@@ -20,34 +20,64 @@
     <h1>
         ENTRE EM CONTATO COMIGO!
     </h1>
-    <br>
-    <form id="css">
-     <input type="text" id="NOME">
-    <label for="NOME">NOME</label>
-    <br>
-
-    <input type="email"  id="email"><br>
-    <label for="email">EMAIL</label>
-   <br>
-   <br>
-   <textarea id="assunto"  cols='60' rows="5"> </textarea>
-   <label for="assunto">ASSUNTO:</label>
-   <br>
-   <br>
-   <button>ENVIAR</button>
     
-</form>
+    
+    <div class="container">    
+    <div>
+        <form id="css">
+            
+           <label for="NOME">NOME</label>
+           <input type="text" id="NOME" onkeyup="validaNome()">
+           
+          <div id="txtnome"></div>
+           <br>
+           <label for="email">EMAIL</label>
+           <input type="email"  id="email" onkeyup="validaEmail()">
+           <div id="txtEmail"></div>
+          <br>
+          <br>
+          <textarea id="assunto"  cols='60' rows="5" onkeyup="validaAssunto()"> </textarea>
+          <label for="assunto">ASSUNTO:</label>
+          <div id="txtAssunto"></div>
+          <br>
+          <br>
+          <button>ENVIAR</button>
+           <form>
+        </div>
+      
+    </div>
+   <div>
+    
+    
+
+
 <footer>
-   <div id="endereco">
-    <h1><strong>Endereço</strong></h1>
-    <p>Rua professor Diogénes Fernandes Távora- 647-A</p>
-    <p>Olinda-PE</p>  
-   </div> 
-   <br>
-   <br>
-   <div id="ctt">EMAIL para contato
-       <p>RayannePimentel95@gmail.com</p>
-   </div>
-</footer>
+    <hr>
+    
+    <div class="ctt">
+    <div id="endereco">
+        <h1><strong>Endereço</strong></h1>
+       <p>Rua professor Diogénes Fernandes Távora- 647-A</p>
+       <p>Olinda-PE</p>  
+      </div> 
+      <br>
+      <br>
+      <div id="ctt">EMAIL para contato
+          <p>RayannePimentel95@gmail.com</p>
+      </div>
+      <br>
+      <br>
+      <a id="al"href="https://www.linkedin.com/in/rayannecavalcantip/" target="_blank"> 
+        <img id="tam" src="linkedin.png">
+    </a>
+    <br>
+    <a href="https://github.com/RayanneCavalcantii" target="_blank">
+        <img src="github.png.png" class="tam">
+    </a>
+    </div>
+  
+</div>
+</footer><script src="scrip.js"></script>
+
 </body>
 </html>

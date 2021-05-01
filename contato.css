@@ -10,7 +10,7 @@ h1{
     padding: 10px;
     border-radius: 10px;
     box-shadow: mediumblue;
-    text-align: justify;
+    text-align:justify;
 }
 footer{
    
@@ -38,3 +38,84 @@ footer{
     width:200px;
     height: 50px;
 }
+#menu li {
+    display:inline;
+    padding: 10px;
+
+    }
+#menu li a{
+    text-decoration: olivedrab;
+}
+#menu li a :hover{
+    color: navy;
+}
+#tam{
+    width: 50x;
+    height: 50px;
+
+}
+#al{
+    text-align: center;
+}
+.container>form{
+    text-align: center;
+    flex-direction: row;
+    display: flex;
+    background-color: gray;
+    border-radius: 20px;
+    box-shadow: darkgoldenrod;
+    padding: 20px;
+    margin:10px;
+    font-size: large;
+    width: 300px;
+    flex-direction:row;
+    color: darkblue;
+    
+}
+.container{
+display: flex;
+flex-direction: row;
+text-align:center ;
+margin: 20px;
+justify-content: center;
+align-content:space-between;
+padding: 20px;
+}
+h1{
+    text-align: center;
+}
+.ctt>div{
+display: flex;
+flex-direction: column;
+text-align:center ;
+margin: 20px;
+justify-content: center;
+padding: 10px;
+
+}
+.ctt{
+    
+    display: flex;
+    background-color:cornflowerblue;
+    justify-content: center;
+    align-content:space-between;
+    flex-direction: row;
+    margin: auto;
+
+}
+#tam{
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+.tam{
+    margin: auto;
+    padding: 30px;
+    border-radius: 5px;
+}
+#menu li {
+    display:inline;
+    padding: 10px;
+    font-size: 20px;
+    
+    }
