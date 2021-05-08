@@ -11,10 +11,12 @@ let txtNome = document.querySelector('#txtnome')
         
         txtNome.innerHTML = 'nome inválido'
         txtNome.style.color = 'red'
+        txtNome.style.display = "block"
 
     }else {
-        txt.innerHTML = 'NOME VÁLIDO!'
-        txt.style.color = 'green'
+        txtNome.innerHTML = 'NOME VÁLIDO!'
+        txtNome.style.color = 'green'
+        txtNome.style.display = "none"
     }
 }
 function validaEmail(){
@@ -22,10 +24,14 @@ function validaEmail(){
     if(email.value.indexOf('@') == -1 || email.value.indexOf('.') == -1){
         txtEmail.innerHTML = 'E-mail inválido'
         txtEmail.style.color = 'red'
+        txtEmail.style.display = "block"
+        
 
     }else{
         txtEmail.innerHTML = 'E-mail válido'
         txtEmail.style.color = 'green'
+        txtEmail.style.display = "none"
+  
 
     }
 
