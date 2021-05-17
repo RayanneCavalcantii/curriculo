@@ -1,5 +1,5 @@
 body{
-    background-color: cornflowerblue; 
+    background-color:rgba(0, 0, 0, 0.342);
 }
 h1{
     color:midnightblue
@@ -32,7 +32,7 @@ footer{
 #ctt{
     border-radius: 10px;
     text-align: center;
-    background-color:indigo;
+    background-color:rgba(0, 0, 0, 0.342);
     padding: 10px;
     box-shadow: gray;
     width:200px;
@@ -61,7 +61,7 @@ footer{
     text-align: center;
     flex-direction: row;
     display: flex;
-    background-color: gray;
+    background-color:rgba(0, 0, 0, 0.342);
     border-radius: 20px;
     box-shadow: darkgoldenrod;
     padding: 20px;
@@ -80,6 +80,7 @@ margin: 20px;
 justify-content: center;
 align-content:space-between;
 padding: 20px;
+
 }
 h1{
     text-align: center;
@@ -96,7 +97,7 @@ padding: 10px;
 .ctt{
     
     display: flex;
-    background-color:cornflowerblue;
+    
     justify-content: center;
     align-content:space-between;
     flex-direction: row;
@@ -120,5 +121,5 @@ padding: 10px;
     
     }
     #menu li a:hover{
-        color:springgreen
+        color:whitesmoke;
     }

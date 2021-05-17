@@ -1,9 +1,9 @@
 body{
-    background-color: cornflowerblue;
+    background-color:rgba(0, 0, 0, 0.342);
 }
 .center{
     text-align: center;
-    color:indigo;
+    color:navy;
     border-color: black;
     text-decoration-line: underline;
 }
@@ -96,7 +96,7 @@ font-size: 20px;
     text-decoration: olivedrab;
 }
 #menu li a:hover{
-    color:springgreen
+    color:whitesmoke;
 }
 h2{
     color: darkblue;
