@@ -23,11 +23,12 @@ footer{
 #endereco{
     border-radius: 10px;
     text-align: center;
-    background-color: indigo;
+    background-color:rgba(0, 0, 0, 0.342);
     padding: 10px;
     box-shadow: gray;
     width: 200px;
     height: 200px;
+    color:black
 }
 #ctt{
     border-radius: 10px;
@@ -37,6 +38,7 @@ footer{
     box-shadow: gray;
     width:200px;
     height: 50px;
+    color:black;
 }
 #menu li {
     display:inline;
